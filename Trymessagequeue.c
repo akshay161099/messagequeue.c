@@ -6,7 +6,7 @@ struct mqueue{
 char items[qsize][200];
 int front,rear;
 int count;
-};
+}; 
 char msg[100];
 void enqueue(struct mqueue *q, char msg[])
 {
